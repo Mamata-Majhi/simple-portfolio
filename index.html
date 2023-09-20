@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css
+    "
+    />
+
+    <title>Portfolio</title>
+  </head>
+  <body class="bg-blue-100 px-32 py-12">
+    <!-- *************nav bar*************  -->
+    <section class="bg-white border-2 rounded-2xl">
+      <nav class="w-full p-4 flex px-20">
+        <a href="#"
+          ><h1
+            class="text-xl font-bold hover:text-blue-500 transition duration-200"
+          >
+            Mamata
+          </h1></a
+        >
+        <ul class="w-full flex justify-end space-x-8 gap-4 font-bold">
+          <div class="hover:underline decoration-blue-500 underline-offset-4">
+            <a href="#"><li>Home</li></a>
+          </div>
+          <div class="hover:underline decoration-blue-500 underline-offset-4">
+            <a href="#"> <li>About</li></a>
+          </div>
+          <div class="hover:underline decoration-blue-500 underline-offset-4">
+            <a href="#"><li>Skills</li></a>
+          </div>
+          <div class="hover:underline decoration-blue-500 underline-offset-4">
+            <a href="#"> <li>Works</li></a>
+          </div>
+          <div class="hover:underline decoration-blue-500 underline-offset-4">
+            <a href="#"><li>Contact</li></a>
+          </div>
+        </ul>
+      </nav>
+
+      <div class="w-full h-px bg-slate-200"></div>
+
+      <section class="relative z-10">
+        <!-- ************image part************ -->
+        <section class="absolute top-16 right-20">
+          <div class="bimg w-80 h-80 bg-blue-500 z-20 px-12 py-4 overflow-hidden">
+            <div class="pt-8">
+              <img
+                src="./images/man.png"
+                class="object-center  object-scale-down h-80 w-80"
+                alt="man"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- ************introduction part************ -->
+
+        <section class="px-20 py-16">
+          <div class="text-5xl font-bold space-y-4">
+            <h1>Hi</h1>
+            <h1>I'am <span class="text-blue-500"> Mamata</span></h1>
+            <h1>Web Developer</h1>
+          </div>
+          <div class="pt-8">
+            <button
+              class="bg-blue-500 px-4 py-2 border-2 rounded-md font-bold text-white hover:bg-blue-600 transition duration-200"
+            >
+              Contact
+            </button>
+          </div>
+        </section>
+      </section>
+      <footer class="flex px-20 justify-start gap-6 py-8">
+        <a href="#"
+          ><div>
+            <i
+              class="fa-brands fa-instagram text-xl hover:text-blue-500 transition duration-200"
+            ></i></div
+        ></a>
+        <a href="#">
+          <div>
+            <i
+              class="fa-brands fa-github text-xl hover:text-blue-500 transition duration-200"
+            ></i></div
+        ></a>
+        <a href="#"
+          ><div>
+            <i
+              class="fa-brands fa-facebook-f text-xl hover:text-blue-500 transition duration-200"
+            ></i></div
+        ></a>
+      </footer>
+    </section>
+  </body>
+</html>
